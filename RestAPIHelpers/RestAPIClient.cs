@@ -31,7 +31,7 @@ namespace RestAPIHelpers
 
         public IniData Configuration
         {
-            get
+            get 
             {
                 if (configuration == null)
                     configuration = LoadConfiguration();
